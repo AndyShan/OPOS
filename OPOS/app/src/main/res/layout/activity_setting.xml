@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test10">
+        <com.sudoku.ad.opos.MyImageButton2
+            android:layout_gravity="top|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/read_button"/>
+        <com.sudoku.ad.opos.MyImageButton2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:id="@+id/return_button"/>
+    </FrameLayout>
+
+    <com.sudoku.ad.opos.MyImageButton3
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting">
+    </com.sudoku.ad.opos.MyImageButton3>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/setting1">
+        <ImageView
+            android:background="@drawable/upup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:id="@+id/light_upup"/>
+        <com.sudoku.ad.opos.MyImageButton4
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/setting_1">
+        </com.sudoku.ad.opos.MyImageButton4>
+        <ImageView
+            android:background="@drawable/downdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:id="@+id/light_downdown"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/setting2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/upup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:id="@+id/sound_upup"/>
+        <com.sudoku.ad.opos.MyImageButton4
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/setting_2">
+        </com.sudoku.ad.opos.MyImageButton4>
+        <ImageView
+            android:background="@drawable/downdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:id="@+id/sound_downdown"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:background="@drawable/setting3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/upup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:id="@+id/sound_upupup"/>
+        <com.sudoku.ad.opos.MyImageButton4
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/setting_3">
+        </com.sudoku.ad.opos.MyImageButton4>
+        <ImageView
+            android:background="@drawable/downdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:id="@+id/sound_downdowndown"/>
+
+    </LinearLayout>
+
+    <com.sudoku.ad.opos.MyImageButton2
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_4">
+    </com.sudoku.ad.opos.MyImageButton2>
+
+
+</LinearLayout>

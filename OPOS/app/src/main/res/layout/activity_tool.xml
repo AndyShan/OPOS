@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test10">
+        <com.sudoku.ad.opos.MyImageButton2
+            android:layout_gravity="top|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/read_button"/>
+        <com.sudoku.ad.opos.MyImageButton2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:id="@+id/return_button"/>
+    </FrameLayout>
+
+    <com.sudoku.ad.opos.MyImageButton3
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool">
+    </com.sudoku.ad.opos.MyImageButton3>
+
+    <com.sudoku.ad.opos.MyImageButton2
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_1">
+    </com.sudoku.ad.opos.MyImageButton2>
+
+    <com.sudoku.ad.opos.MyImageButton2
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_2">
+    </com.sudoku.ad.opos.MyImageButton2>
+    <com.sudoku.ad.opos.MyImageButton2
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_3">
+    </com.sudoku.ad.opos.MyImageButton2>
+    <com.sudoku.ad.opos.MyImageButton2
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_4">
+    </com.sudoku.ad.opos.MyImageButton2>
+    <com.sudoku.ad.opos.MyImageButton2
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_5">
+    </com.sudoku.ad.opos.MyImageButton2>
+</LinearLayout>

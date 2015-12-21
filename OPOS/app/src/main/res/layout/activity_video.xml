@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/video_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+            <com.sudoku.ad.opos.VideoButton
+                android:id="@+id/vedio_14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.sudoku.ad.opos.VideoButton>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
